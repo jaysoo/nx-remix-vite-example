@@ -1,0 +1,24 @@
+{
+  "name": "my-remix-app",
+  "targets": {
+    "build": {
+      "command": "remix vite:build",
+      "options": {
+        "cwd": "apps/my-remix-app"
+      }
+    },
+    "dev": {
+      "command": "remix vite:dev",
+      "options": {
+        "cwd": "apps/my-remix-app"
+      }
+    },
+    "start": {
+      "command":
+        "remix-serve ./build/server/index.js",
+      "options": {
+        "cwd": "apps/my-remix-app"
+      }
+    }
+  }
+}

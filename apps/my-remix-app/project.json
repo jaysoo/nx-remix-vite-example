@@ -3,6 +3,8 @@
   "targets": {
     "build": {
       "command": "remix vite:build",
+      "cache": true,
+      "ouputs": ["{projectRoot}/build", "{projectRoot}/public/build"],
       "options": {
         "cwd": "apps/my-remix-app"
       }
